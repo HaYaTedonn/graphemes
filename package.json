@@ -1,0 +1,17 @@
+{
+  "name": "@hayatedonn/graphemes",
+  "version": "0.1.0",
+  "description": "Emoji- and grapheme-aware string helpers (length, slice, truncate, reverse) using Intl.Segmenter. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["grapheme", "emoji", "unicode", "string", "length", "truncate", "slice", "segmenter", "zero-dependency"],
+  "repository": { "type": "git", "url": "git+https://github.com/HaYaTedonn/graphemes.git" },
+  "author": "Hayate Suzuki",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "sideEffects": false
+}
