@@ -6,12 +6,12 @@ In JavaScript, `'a👍b'.length` is `4`, and naive `slice`/`reverse` can split a
 
 ## Install
 ```bash
-npm install @hayatedonn/graphemes
+npm install @suzukihayate/graphemes
 ```
 
 ## Usage
 ```js
-import { length, slice, truncate, reverse, toGraphemes, at } from '@hayatedonn/graphemes';
+import { length, slice, truncate, reverse, toGraphemes, at } from '@suzukihayate/graphemes';
 
 length('a👍b');          // 3   (native .length is 4)
 length('👨‍👩‍👧‍👦');         // 1   (a single ZWJ grapheme)

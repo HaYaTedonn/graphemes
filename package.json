@@ -1,5 +1,5 @@
 {
-  "name": "@hayatedonn/graphemes",
+  "name": "@suzukihayate/graphemes",
   "version": "0.1.0",
   "description": "Emoji- and grapheme-aware string helpers (length, slice, truncate, reverse) using Intl.Segmenter. Zero dependencies.",
   "type": "module",
